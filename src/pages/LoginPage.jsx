@@ -35,7 +35,7 @@ function LoginPage() {
         onSubmit={handleSubmit}
         className="bg-white p-8 rounded shadow-md w-96"
       >
-        <h2 className="text-2xl font-bold mb-4 text-center">Login</h2>
+        <h2 className="text-2xl font-bold mb-4 text-center">Canvas community login</h2>
         {error && <p className="text-red-500 text-sm">{error}</p>}
         <div className="mb-4">
           <label className="block text-sm font-semibold">Email:</label>
